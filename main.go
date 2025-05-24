@@ -414,7 +414,7 @@ func rekomendasiOutfit() {
 	if jumlah == 0 {
 		fmt.Println("Tidak ada kombinasi outfit yang cocok ditemukan.")
 	} else {
-		fmt.Print("\nPilih nomor outfit yang ingin kamu pakai (1-3): ")
+		fmt.Print("\nPilih nomor outfit yang ingin kamu pakai : ")
 		pilihStr, _ := reader.ReadString('\n')
 		pilihStr = strings.TrimSpace(pilihStr)
 		pilih, err := strconv.Atoi(pilihStr)
